@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Eco factor</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <link rel="icon" type="image/x-icon" href="img/logo.png" />
+    <script src="https://kit.fontawesome.com/dacf50f38a.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(1, 72, 1)">
+        <div class="container-fluid">
+            <a class="navbar-brand mr-5" href="index.html" id="navbar-brand">The <span id="eco">ECO</span> Factor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About The Eco Factor</a>
+                    </li>
+                    <li class="nav-item dropdown" id="nav-item-dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" id="nav-item-dropdown-more">
+                            More
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">E-waste Recyle</a></li>
+                            <li><a class="dropdown-item" href="#">Lithium Batteries</a></li>
+                            <li><a class="dropdown-item" href="#">Recyle an Item</a></li>
+                            <li><a class="dropdown-item" href="#">Where to Recyle</a></li>
+                            <li>
+                                <hr class="dropdown-divider" />
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">News</a>
+                                <a class="dropdown-item" href="#">Our Works</a>
+                                <a class="dropdown-item" href="#">Support Us</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex w-50" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                    <button class="btn btn-outline-light btn-spacing" type="submit" id="nav-search-button">
+                        Search
+                    </button>
+                    <a class="btn btn-outline-primary" id="login" href="login.html" role="button">Login</a>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/car-1.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="img/car-3.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+                <img src="img/car-2.jpg" class="d-block w-100" alt="..." />
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-1 ">
+        <h2 class="mt-2 d-flex justify-content-center align-items-center">The World is Recycling, when will you?</h1>
+            <div class="cont-1-1 d-flex">
+                <div class="input-group mb-3 w-25 mt-5">
+                    <button class="btn btn-success" type="button" id="button-addon1"
+                        style="background-color: rgb(1,72,1);"><i class="fa-solid fa-arrows-rotate"></i></button>
+                    <input type="text" class="form-control" placeholder="Search for item to recycle"
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                </div>
+                <div class="input-group mb-3 w-25 mt-5">
+                    <button class="btn btn-success" type="button" id="button-addon2"
+                        style="background-color: rgb(1,72,1);"><i class="fa-solid fa-location-dot"></i></button>
+                    <input type="text" class="form-control" placeholder="What's your passcode?"
+                        aria-label="Example text with button addon" aria-describedby="button-addon1">
+                </div>
+                <button class="btn btn-dark btn-sm mb-3 mt-5" type="button" id="button-addon3">Check</button>
+            </div>
+    </div>
+
+    <!-- https://source.unsplash.com/600x400/?recycling-symbols -->
+
+    <div class="cont-2 d-flex">
+        <div class="card" style="width: 18rem;">
+            <img src="img/card-1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Understanding Recycling Symbols</p>
+                <button type="button" class="btn btn-dark" style="background-color: rgb(1,72,1);">How to Recyle</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="img/card-2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Why is Recycling Important?</p>
+                <button type="button" class="btn btn-dark" style="background-color: rgb(1,72,1);">How to Recyle</button>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem;">
+            <img src="img/card-3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">Moving House? Declutter & Recycle</p>
+                <button type="button" class="btn btn-dark" style="background-color: rgb(1,72,1);">How to Recyle</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-3 container-md">
+        <div class="row mb-5">
+            <div class="col-md-15">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">Wineshop owner to send returned tetra packs to recycling centre, says Uttarakhand HC</h3>
+                        <div class="mb-1 text-body-secondary">April 25</div>
+                        <p class="card-text mb-auto">A division bench of Chief Justice Vipin Sanghi and Justice Alok Verma had on Friday directed the government seeking answers on what measures would be taken for the waste management of tetra pack. </p>
+                        <a href="https://timesofindia.indiatimes.com/city/dehradun/wineshop-owner-to-send-returned-tetra-packs-to-recycling-centre-says-uttarakhand-hc/articleshow/99744657.cms?from=mdr" target="_blank" class="stretched-link" >Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="img/cont-1.jpg" class="bd-placeholder-img" width="400" height="250"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mb-5">
+            <div class="col-md-15">
+                <div
+                    class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+                    <div class="col p-4 d-flex flex-column position-static">
+                        <strong class="d-inline-block mb-2 text-primary">World</strong>
+                        <h3 class="mb-0">EGLE allocates $15.6M for recycling infrastructure grants in 2023</h3>
+                        <div class="mb-1 text-body-secondary">April 18</div>
+                        <p class="card-text mb-auto">Recycling in Michigan is at “an all-time high,” according to the Michigan Department of Environment, Great Lakes and Energy (EGLE). The total amount of residential recycled materials being reported for fiscal year 2022 was 620,494 tons, about 66,000 tons more than what had been reported in the 2021 fiscal year.</p>
+                        <a href="https://recyclingtoday.com/news/egle-awarding-15-million-recycling-infrastructure-grants-2023/" target="_blank" class="stretched-link" >Continue reading</a>
+                    </div>
+                    <div class="col-auto d-none d-lg-block">
+                        <img src="img/cont-2.jpg" class="bd-placeholder-img" width="400" height="250"  alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="cont-4 d-flex">
+        <div class="card" style="width: 18rem; background-color: rgb(2, 50, 15);">
+            <div class="card-body">
+              <h5 class="card-title">E-Waste</h5>
+              <p class="card-text">"Do not throw your electronic waste For them a bin is not a right place Be a part of solution not of pollution……!"</p>
+              <a href="ewaste.html" class="card-link">E-Waste</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; background-color:rgb(4, 18, 7);">
+            <div class="card-body">
+              <h5 class="card-title">Up-Cyling</h5>
+              <p class="card-text">"Nature abhors waste. And so should we."
+                ― Hendrith Vanlon Smith Jr, CEO of Mayflower-Plymouth</p>
+              <a href="up-cyling.html" class="card-link">Up-Cycling</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; background-color: rgb(18, 33, 22);">
+            <div class="card-body">
+              <h5 class="card-title">Create your own Compost</h5>
+              <p class="card-text">"Confess yourself to heaven, Repent what's past, avoid what is to come, And do not spread the compost on the weeds To make them ranker."</p>
+              <a href="compost.html" class="card-link">Create your own compost</a>
+            </div>
+        </div>
+        <div class="card" style="width: 18rem; background-color: rgb(1, 46, 13);">
+            <div class="card-body">
+              <h5 class="card-title">Plantation Drive</h5>
+              <p class="card-text">"A beautiful plant is like having a friend around the house.Until you dig a hole, you plant a tree, you water it and make it survive, you haven't done a thing".</p>
+              <a href="#" class="card-link">Plantation Drive</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="cont-5 d-flex ">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-youtube"></i>
+        <i class="fa-solid fa-envelope"></i>
+    </div>
+
+    <div class="cont-6 d-flex">
+        <h4>Let us know how we can improve?</h4>
+        <button type="button" class="btn btn-outline-dark">Feedback</button>
+    </div>
+
+    <div class="cont-7 d-flex">
+        <div class="cont-71">
+            <ul>
+                <h2>Recyling</h2>
+                <li>Where to Recycle?</li>
+                <li>How to Recycle?</li>
+                <li>Recycle an Item</li>
+                <li>Be a better person</li>
+            </ul>
+        </div>
+        <div class="cont-72">
+            <ul>
+                <h2>Help & Information</h2>
+                <li>Who we are and What we do?</li>
+                <li>FAQ</li>
+                <li>News</li>
+                <li>Contact The ECO Factor</li>
+            </ul>
+        </div>
+        <div class="cont-73">
+            <ul>
+                <h2>In India:</h2>
+                <li>Mumbai</li>
+                <li>Chennai</li>
+                <li>Guwahati</li>
+                <li>Indore</li>
+            </ul>
+        </div>
+        <div class="cont-74">
+            <ul>
+                <h2>Others</h2>
+                <li>Community Guidelines</li>
+                <li>Terms & Conditions</li>
+                <li>Privacy Policies</li>
+                <li>Accessibility Statements</li>
+                <li>Cookies Policy</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer>
+        &#169; All rights reserved to The ECO Factor
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

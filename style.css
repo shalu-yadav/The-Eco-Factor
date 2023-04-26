@@ -1,0 +1,203 @@
+
+
+.nav-item a{
+    color: white;
+}
+
+#navbar-brand{
+    color: white;
+    font-weight: 800;
+}
+
+#eco{
+    color: greenyellow;
+}
+
+.nav-item a:hover{
+    color: greenyellow;
+}
+
+#nav-search-button:hover{
+    background-color: greenyellow;
+    border: 1px solid greenyellow;
+}
+
+#login{
+    margin-left: 0.7rem;
+    border: 1px solid white;
+    color: white;
+}
+#login:hover{
+    background-color: greenyellow;
+    color: black;
+}
+
+.btn-spacing{
+    margin-left: 0.6rem;
+}
+
+#nav-item-dropdown ul{
+    background-color: rgb(1,72,1);
+}
+
+.dropdown-menu li a:hover{
+    color: greenyellow;
+    background-color: rgb(1,72,1);
+}
+
+#nav-item-dropdown-more:visited{
+    color: greenyellow;
+    font-weight: 800;
+}
+
+.cont-1{
+    position: relative;
+    height: 30%; 
+    width: 80%;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    border-bottom: 5px solid rgb(1,72,1);
+}
+
+.cont-1 h2{
+    color: rgb(1,72,1);
+}
+
+#cont-1-btn-3{
+    height: 20%;
+    margin-top: 3.8%;
+}
+
+.cont-1-1 {
+    justify-content: space-around;
+}
+
+#cont-1-btn-3:hover{
+    background-color: greenyellow;
+    color: black;
+    border: 1px solid greenyellow;
+}
+
+.cont-2{
+   justify-content: center;
+}
+
+.cont-2 .card{
+    margin: 1.2rem;
+    border-bottom: 5px solid rgb(1,72,1);
+}
+
+.cont-4{
+    /* border: 5px solid red; */
+    width: 85%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.cont-4 .card .card-body {
+    color: white;
+}
+
+.cont-4 .card .card-body .card-link{
+    color: greenyellow;
+}
+
+.cont-5{
+    margin: auto;
+    margin-top: 3rem;
+    justify-content: center;
+    width: 85%;
+    border: 1px solid lightgrey;
+}
+
+.cont-5 i{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font-size: 3rem;
+    margin-right: 3rem;
+}
+
+.cont-6{
+    border: 1px solid lightgray;
+    width: 85%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.cont-6 button{
+    margin-left: 1.2rem;
+    color: rgb(1,72,1);
+    font-weight: 800;
+    border: 3px solid rgb(1,72,1);
+}
+
+.cont-7{
+    border-top: 3px solid rgb(1,72,1);
+    justify-content: space-evenly;
+}
+
+.cont-7 div{
+    height: 17rem;
+    width: 20rem;
+    /* border: 2px solid red; */
+    margin-top: 3rem;
+}
+
+.cont-7 div ul{
+    padding: 2rem;
+    list-style-type: none;
+}
+
+.cont-7 div ul li{
+    padding: 0.1rem;
+}
+
+footer{
+    background-color: lightgrey;
+    padding: 2rem;
+    text-align: center;
+}
+
+#login-h1{
+    color: white;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#login-h1 span{
+    color: greenyellow;
+}
+
+#login-h2{
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.cont-form{
+    border: 2px solid greenyellow;
+    padding: 0.5rem; width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+}
+
+.login-form div{
+    margin: auto;
+}
+
+#sign-in-btn{
+    background-color: rgb(61, 61, 61);
+    border: 1px solid rgb(61, 61, 61);
+    color: white;
+    font-weight: 800;
+}
+
+#sign-in-btn:hover{
+    background-color: greenyellow;
+    color: rgb(61, 61, 61);
+}
